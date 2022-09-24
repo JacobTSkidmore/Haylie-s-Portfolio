@@ -3,6 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #000000;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #65655e;
+}
+
+.header, .footer {
+  background-color: #4a1942;
+}
+
+.header {
+  flex: 2 1 auto;
+}
+
+.footer {
+  flex: 1 1 auto;
+}
+
+.content {
+  background-color: #f0cea0;
+  flex: 7 1 auto;
 }
